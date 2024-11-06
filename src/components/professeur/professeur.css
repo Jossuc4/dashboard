@@ -1,0 +1,47 @@
+.cadre{
+    position:absolute;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+    /* background-color: red; */
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 90%;
+    padding-left: 10%;
+    padding-top: 3%;
+}
+.card{
+    width: 45%;
+    border-radius: 14px;
+    height: 250px;
+    box-shadow: 3px 3.3px rgba(0, 0, 0, 0.459);
+}
+.partage , .enseignement{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pub{
+    overflow-x: hidden;
+    overflow-y: scroll;
+    padding: 8px;
+    height: 232px;
+}
+.publications{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+}
+/* .publications{ */
+    /* width: 100%; */
+/* } */
+.publication{
+    width: 78%;
+    height: 40px;
+    background-color: beige;
+    border-radius: 13px;
+    box-shadow: 2px 2.5px grey;
+}
