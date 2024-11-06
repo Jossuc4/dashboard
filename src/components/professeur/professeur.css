@@ -47,7 +47,17 @@
     border-radius: 13px;
     box-shadow: 2px 2.5px grey;
 }
-.publication>.name{
+.profil{
+    display: flex;
+    gap: 8%;
+}
+.profil>.square{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: green;
+}
+.profil>.name{
     font-weight: bold;
     text-align: left;
 }
